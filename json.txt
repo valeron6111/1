@@ -1,0 +1,815 @@
+{
+   "response":{
+      "bundles":[
+         {
+            "code":"video",
+            "name":"Видеосервисы",
+            "nameShort":"Иви и START",
+            "description":"Иви, START",
+            "descriptionShort":"7 дней бесплатно",
+            "plans":[
+               {
+                  "amount":449,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":3,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":7,
+                  "format":"day",
+                  "planId":88,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"ivi",
+                  "name":"Иви",
+                  "description":"Большая коллекция лицензионных фильмов и сериалов",
+                  "priority":2,
+                  "label":"https://brands-prod.cdn-tinkoff.ru/general_logo/ivi.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"start",
+                  "name":"START",
+                  "description":"Кино, сериалы, мультфильмы и эксклюзивные премьеры сериалов START",
+                  "priority":3,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/e71b0596-6a56-4385-8748-680590eb6949.png",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               
+            },
+            "trialBan":false
+         },
+         {
+            "code":"premium",
+            "name":"Tinkoff Premium",
+            "description":"С подпиской PREMIUM вы получаете больше от продуктов Тинькофф",
+            "plans":[
+               {
+                  "amount":1990,
+                  "repeatability":1,
+                  "format":"month",
+                  "planId":2,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":1,
+                  "format":"month",
+                  "planId":7,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":true,
+            "dependent":false,
+            "active":true,
+            "details":[
+               {
+                  "code":"tjpromocodes",
+                  "name":"Учебник Т—Ж со скидкой",
+                  "description":"50% на любой курс по промокоду",
+                  "priority":0,
+                  "businessDepartment":"tinkoff_journal",
+                  "deepLink":"tinkoffbank://Main/ShowCustomStory?storyId=21505",
+                  "application":"bank"
+               },
+               {
+                  "code":"invest",
+                  "name":"Инвестиции Премиум",
+                  "description":"Бесплатное обслуживание и другие привилегии",
+                  "priority":1,
+                  "businessDepartment":"invest",
+                  "application":"bank"
+               },
+               {
+                  "code":"tbundle_cu_interest_rate",
+                  "name":"Процент на остаток до 300 000 ₽",
+                  "descriptionShort":"6% вместо 0% на остаток по карте",
+                  "priority":2,
+                  "businessDepartment":"prime",
+                  "asIs":"0%",
+                  "toBe":"6%",
+                  "application":"bank"
+               },
+               {
+                  "code":"vzr",
+                  "name":"Страховка в поездках",
+                  "description":"По всему миру",
+                  "priority":4,
+                  "businessDepartment":"family_insurance",
+                  "application":"bank"
+               },
+               {
+                  "code":"cashback_limit",
+                  "name":"Увеличенный лимит кэшбэка",
+                  "priority":5,
+                  "businessDepartment":"prime",
+                  "asIs":"3 000 ₽/мес",
+                  "toBe":"30 000 ₽/мес",
+                  "application":"bank"
+               },
+               {
+                  "code":"c2c_out_limit",
+                  "name":"Переводы на карты бесплатно",
+                  "descriptionShort":"Больше лимит переводов без комиссии",
+                  "priority":6,
+                  "businessDepartment":"prime",
+                  "asIs":"20 000 ₽/мес",
+                  "toBe":"100 000 ₽/мес",
+                  "application":"bank"
+               },
+               {
+                  "code":"sa_interest_rate",
+                  "name":"Повышенный доход по накопительному счету",
+                  "priority":7,
+                  "businessDepartment":"saving",
+                  "asIs":"3%",
+                  "toBe":"7%",
+                  "application":"bank"
+               },
+               {
+                  "code":"cashback_category",
+                  "name":"Повышенный кэшбэк по Tinkoff Black",
+                  "descriptionShort":"8 категорий повышенного кэшбэка вместо 7",
+                  "priority":8,
+                  "businessDepartment":"prime",
+                  "asIs":"4 из 7 категорий",
+                  "toBe":"4 из 8 категорий",
+                  "application":"bank"
+               },
+               {
+                  "code":"service_fee",
+                  "name":"Обслуживание всех карт",
+                  "description":"Бесплатно",
+                  "priority":10,
+                  "businessDepartment":"prime",
+                  "application":"bank"
+               },
+               {
+                  "code":"notification",
+                  "name":"Оповещения обо всех операциях",
+                  "description":"Бесплатно",
+                  "priority":12,
+                  "businessDepartment":"prime",
+                  "asIs":"59 ₽/мес",
+                  "toBe":"Бесплатно",
+                  "application":"bank"
+               },
+               {
+                  "code":"tbundle_pref_transfer_limit",
+                  "name":"Лимит на переводы с кредитной карты без комиссии и процентов",
+                  "priority":13,
+                  "businessDepartment":"prime",
+                  "asIs":"50 000 ₽/мес",
+                  "toBe":"200 000 ₽/мес",
+                  "application":"bank"
+               },
+               {
+                  "code":"xxi",
+                  "name":"Вклад с повышенной ставкой",
+                  "priority":14,
+                  "businessDepartment":"xxi",
+                  "asIs":"до 7%",
+                  "toBe":"до 8%",
+                  "application":"bank"
+               },
+               {
+                  "code":"target",
+                  "name":"Дополнительные спецпредложения только для вас",
+                  "priority":15,
+                  "businessDepartment":"target",
+                  "application":"bank"
+               },
+               {
+                  "code":"insurance",
+                  "name":"Повышенный кэшбэк за полисы Тинькофф Страхования",
+                  "priority":16,
+                  "businessDepartment":"insurance",
+                  "toBe":"10%",
+                  "application":"bank"
+               },
+               {
+                  "code":"travel",
+                  "name":"Повышенный кэшбэк за путешествия",
+                  "description":"за отели",
+                  "priority":17,
+                  "businessDepartment":"travel",
+                  "toBe":"до 10%",
+                  "application":"bank"
+               },
+               {
+                  "code":"travel",
+                  "name":"Повышенный кэшбэк за путешествия",
+                  "description":"за авиабилеты",
+                  "priority":18,
+                  "businessDepartment":"travel",
+                  "toBe":"до 7%",
+                  "application":"bank"
+               },
+               {
+                  "code":"lifestyle",
+                  "name":"Повышенный кэшбэк за билеты в кино, на концерты, в театр",
+                  "priority":19,
+                  "businessDepartment":"lifestyle",
+                  "asIs":"5%",
+                  "toBe":"20%",
+                  "application":"bank"
+               },
+               {
+                  "code":"mobile",
+                  "name":"Бесплатная связь от Тинькофф",
+                  "description":"скидка на пакеты ГБ",
+                  "priority":20,
+                  "businessDepartment":"mobile",
+                  "toBe":"50%",
+                  "application":"bank"
+               },
+               {
+                  "code":"mobile",
+                  "name":"Бесплатная связь от Тинькофф Мобайла",
+                  "description":"каждый месяц по России",
+                  "priority":21,
+                  "businessDepartment":"mobile",
+                  "toBe":"∞ мин",
+                  "application":"bank"
+               },
+               {
+                  "code":"secretary",
+                  "name":"Секретарь Олег: звонки без ограничений, новый голос и другие функции",
+                  "priority":22,
+                  "businessDepartment":"secretary",
+                  "asIs":"99 ₽",
+                  "toBe":"0 ₽",
+                  "deepLink":"tinkoffbank://Main/Chat/VoiceAssistant?textParams=phoneSecretary",
+                  "application":"bank"
+               },
+               {
+                  "code":"sme",
+                  "name":"Для ИП: пополнение наличными, вывод на карту",
+                  "description":"На 300 000 ₽ больше без комиссии",
+                  "priority":23,
+                  "businessDepartment":"sme",
+                  "application":"bank"
+               },
+               {
+                  "code":"concierge",
+                  "name":"Консьерж-сервис для помощи в поездках и дома",
+                  "priority":24,
+                  "businessDepartment":"concierge",
+                  "application":"bank"
+               },
+               {
+                  "code":"lounge_key",
+                  "name":"Бизнес залы",
+                  "description":"Бизнес залы по всему миру",
+                  "priority":35,
+                  "businessDepartment":"lounge_key",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               
+            },
+            "trialBan":false
+         },
+         {
+            "code":"pro",
+            "name":"Tinkoff Pro",
+            "description":"С подпиской PRO вы получаете больше от продуктов Тинькофф",
+            "plans":[
+               {
+                  "amount":199,
+                  "repeatability":1,
+                  "format":"month",
+                  "planId":1,
+                  "preference":false
+               },
+               {
+                  "amount":1990,
+                  "repeatability":1,
+                  "format":"year",
+                  "planId":253,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":1,
+                  "format":"month",
+                  "planId":9,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":true,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"tjpromocodes",
+                  "name":"Учебник Т—Ж со скидкой",
+                  "description":"50% на любой курс по промокоду",
+                  "priority":0,
+                  "businessDepartment":"tinkoff_journal",
+                  "deepLink":"tinkoffbank://Main/ShowCustomStory?storyId=20134&_is_saveable=true&source=push",
+                  "application":"bank"
+               },
+               {
+                  "code":"tbundle_cu_interest_rate",
+                  "name":"Процент на остаток до 300 000 ₽",
+                  "descriptionShort":"6% вместо 0% на остаток по карте",
+                  "priority":1,
+                  "businessDepartment":"prime",
+                  "asIs":"0%",
+                  "toBe":"6%",
+                  "application":"bank"
+               },
+               {
+                  "code":"cashback_limit",
+                  "name":"Увеличенный лимит кэшбэка",
+                  "priority":2,
+                  "businessDepartment":"prime",
+                  "asIs":"3 000 ₽/мес",
+                  "toBe":"5 000 ₽/мес",
+                  "application":"bank"
+               },
+               {
+                  "code":"c2c_out_limit",
+                  "name":"Переводы на карты бесплатно",
+                  "descriptionShort":"Больше лимит переводов без комиссии",
+                  "priority":3,
+                  "businessDepartment":"prime",
+                  "asIs":"20 000 ₽/мес",
+                  "toBe":"50 000 ₽/мес",
+                  "application":"bank"
+               },
+               {
+                  "code":"sa_interest_rate",
+                  "name":"Повышенный доход по накопительному счету",
+                  "priority":4,
+                  "businessDepartment":"saving",
+                  "asIs":"3%",
+                  "toBe":"6%",
+                  "application":"bank"
+               },
+               {
+                  "code":"cashback_category",
+                  "name":"Категории повышенного кэшбэка на выбор",
+                  "descriptionShort":"8 категорий повышенного кэшбэка вместо 7",
+                  "priority":5,
+                  "businessDepartment":"prime",
+                  "asIs":"4 из 7 категорий",
+                  "toBe":"4 из 8 категорий",
+                  "application":"bank"
+               },
+               {
+                  "code":"service_fee",
+                  "name":"Обслуживание карты Black и Платинум",
+                  "description":"Бесплатно",
+                  "priority":6,
+                  "businessDepartment":"prime",
+                  "application":"bank"
+               },
+               {
+                  "code":"notification",
+                  "name":"Оповещения обо всех операциях",
+                  "description":"Бесплатно",
+                  "priority":7,
+                  "businessDepartment":"prime",
+                  "asIs":"59 ₽/мес",
+                  "toBe":"Бесплатно",
+                  "application":"bank"
+               },
+               {
+                  "code":"xxi",
+                  "name":"Вклад с повышенной ставкой",
+                  "priority":8,
+                  "businessDepartment":"xxi",
+                  "asIs":"до 7%",
+                  "toBe":"до 8%",
+                  "application":"bank"
+               },
+               {
+                  "code":"tbundle_pref_transfer_limit",
+                  "name":"Лимит на переводы с кредитной карты без комиссии и процентов",
+                  "priority":9,
+                  "businessDepartment":"prime",
+                  "asIs":"50 000 ₽/мес",
+                  "toBe":"100 000 ₽/мес",
+                  "application":"bank"
+               },
+               {
+                  "code":"lifestyle",
+                  "name":"Повышенный кэшбэк за билеты в кино, на концерты, в театр",
+                  "priority":10,
+                  "businessDepartment":"lifestyle",
+                  "asIs":"5%",
+                  "toBe":"15%",
+                  "application":"bank"
+               },
+               {
+                  "code":"insurance",
+                  "name":"Повышенный кэшбэк за полисы Тинькофф Страхования",
+                  "priority":12,
+                  "businessDepartment":"insurance",
+                  "toBe":"5%",
+                  "application":"bank"
+               },
+               {
+                  "code":"travel",
+                  "name":"Повышенный кэшбэк за путешествия",
+                  "description":"за отели",
+                  "priority":14,
+                  "businessDepartment":"travel",
+                  "toBe":"до 10%",
+                  "application":"bank"
+               },
+               {
+                  "code":"travel",
+                  "name":"Повышенный кэшбэк за путешествия",
+                  "description":"за авиабилеты",
+                  "priority":15,
+                  "businessDepartment":"travel",
+                  "toBe":"до 7%",
+                  "application":"bank"
+               },
+               {
+                  "code":"mobile",
+                  "name":"Скидка на связь от Тинькофф",
+                  "description":"на пакеты ГБ, плюс 1200 мин каждый месяц при покупке любого пакета",
+                  "priority":16,
+                  "businessDepartment":"mobile",
+                  "toBe":"30%",
+                  "application":"bank"
+               },
+               {
+                  "code":"secretary",
+                  "name":"Секретарь Олег: звонки без ограничений, новый голос и другие функции",
+                  "priority":17,
+                  "businessDepartment":"secretary",
+                  "asIs":"99 ₽",
+                  "toBe":"0 ₽",
+                  "deepLink":"tinkoffbank://Main/Chat/VoiceAssistant?textParams=phoneSecretary",
+                  "application":"bank"
+               },
+               {
+                  "code":"sme",
+                  "name":"Для ИП: пополнение наличными, вывод на карту",
+                  "description":"На 100 000 ₽ больше без комиссии",
+                  "priority":18,
+                  "businessDepartment":"sme",
+                  "application":"bank"
+               },
+               {
+                  "code":"invest",
+                  "name":"Ценные бумаги Тинькофф",
+                  "description":"Покупка и продажа без комиссии",
+                  "priority":19,
+                  "businessDepartment":"invest",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               
+            },
+            "trialBan":false
+         },
+         {
+            "code":"mybook_premium",
+            "name":"MyBook Премиум",
+            "nameShort":"MyBook",
+            "descriptionShort":"14 дней бесплатно",
+            "plans":[
+               {
+                  "amount":499,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":23,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":14,
+                  "format":"day",
+                  "planId":25,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"books",
+                  "name":"Все электронные и аудиокниги",
+                  "description":"От классики до бизнес-литературы. Обновляется ежедневно",
+                  "priority":1,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/e85283fe-6b24-4299-9eda-28f21508a018.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"without_internet",
+                  "name":"Можно читать без интернета",
+                  "description":"Работает даже там, где нет связи",
+                  "priority":2,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/8f020dc6-3bd5-44fa-8993-5dc1dd916408.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"recommendations",
+                  "name":"Индивидуальные рекомендации",
+                  "description":"Когда не знаете, что хотите прочитать",
+                  "priority":3,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/23f51f4c-e236-432b-bc96-57526ddff867.png",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               "cashbackMain":"10%",
+               "cashbackPro":"20%",
+               "cashbackPremium":"20%",
+               "cashbackPrivate":"100%"
+            },
+            "trialBan":false
+         },
+         {
+            "code":"kaspersky_kis2",
+            "name":"Kaspersky Internet Security",
+            "nameShort":"Kaspersky",
+            "descriptionShort":"30 дней бесплатно",
+            "plans":[
+               {
+                  "amount":149,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":100,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":103,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"device_protection",
+                  "name":"Защита устройств",
+                  "description":"Оградит от фишинга, вредоносного ПО, шифровальщиков и шпионажа",
+                  "priority":1,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/f2e5e878-1e17-486c-8975-2b65708de252.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"finance_protection",
+                  "name":"Защита финансов",
+                  "description":"Платежная информация при покупках онлайн будет надежно зашифрована",
+                  "priority":2,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/d476aad1-5c1c-4a56-b3fa-3fdef097cd47.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"privacy_protection",
+                  "name":"Защита приватности",
+                  "description":"Включает защиту от сбора данных и другие функции для защиты переписок и данных",
+                  "priority":3,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/f6dd5ce3-9a70-4e15-b59a-ab1fdabca21a.png",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               "cashbackMain":"10%",
+               "cashbackPro":"30%",
+               "cashbackPremium":"30%",
+               "cashbackPrivate":"100%"
+            },
+            "trialBan":false
+         },
+         {
+            "code":"kaspersky_kids",
+            "name":"Kaspersky Safe Kids",
+            "nameShort":"Kaspersky",
+            "descriptionShort":"30 дней бесплатно",
+            "plans":[
+               {
+                  "amount":99,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":102,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":105,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"time_control",
+                  "name":"Контроль времени",
+                  "description":"Настройте, как долго ребенок может пользоваться устройством",
+                  "priority":1,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/f2e5e878-1e17-486c-8975-2b65708de252.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"social_networks",
+                  "name":"Активности в соцсетях",
+                  "description":"Приглядывайте за Вконтакте и управляйте запросами на YouTube",
+                  "priority":2,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/d476aad1-5c1c-4a56-b3fa-3fdef097cd47.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"gps_tracker",
+                  "name":"GPS-трекер",
+                  "description":"Смотрите, где ребенок, и следите за уровнем заряда его устройства",
+                  "priority":3,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/f6dd5ce3-9a70-4e15-b59a-ab1fdabca21a.png",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               "cashbackMain":"10%",
+               "cashbackPro":"30%",
+               "cashbackPremium":"30%",
+               "cashbackPrivate":"100%"
+            },
+            "trialBan":false
+         },
+         {
+            "code":"kaspersky_android",
+            "name":"Kaspersky Internet Security для Android",
+            "nameShort":"Kaspersky",
+            "descriptionShort":"30 дней бесплатно",
+            "plans":[
+               {
+                  "amount":49,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":101,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":104,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"phone_protection",
+                  "name":"Защита телефона",
+                  "description":"Оградит от вредоносных программ, шпионажа и подозрительных объектов",
+                  "priority":1,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/f2e5e878-1e17-486c-8975-2b65708de252.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"anti_thief",
+                  "name":"Анти-Вор",
+                  "description":"При потере или краже устройства отследит, заблокирует и очистит его",
+                  "priority":2,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/d476aad1-5c1c-4a56-b3fa-3fdef097cd47.png",
+                  "application":"bank"
+               },
+               {
+                  "code":"anti_phishing",
+                  "name":"Анти-Фишинг",
+                  "description":"Защитит от сообщений и сайтов, созданных для кражи денег и данных",
+                  "priority":3,
+                  "label":"https://acdn.tinkoff.ru/static/pfa-multimedia/images/f6dd5ce3-9a70-4e15-b59a-ab1fdabca21a.png",
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               "cashbackMain":"10%",
+               "cashbackPro":"30%",
+               "cashbackPremium":"30%",
+               "cashbackPrivate":"100%"
+            },
+            "trialBan":false
+         },
+         {
+            "code":"ivi",
+            "name":"Иви",
+            "nameShort":"Иви",
+            "descriptionShort":"30 дней бесплатно",
+            "plans":[
+               {
+                  "amount":399,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":106,
+                  "preference":false
+               },
+               {
+                  "amount":0,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":107,
+                  "preference":true,
+                  "preferenceType":"trial"
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"ivi_profile",
+                  "name":"5 профилей в одной подписке",
+                  "description":"Для семьи и друзей",
+                  "priority":1,
+                  "application":"bank"
+               },
+               {
+                  "code":"ivi_device",
+                  "name":"5 устройств одновременно",
+                  "description":"На Smart TV, в приложении IVI, на ноутбуке или игровой приставке",
+                  "priority":2,
+                  "application":"bank"
+               },
+               {
+                  "code":"ivi_content",
+                  "name":"Более 100 000 фильмов и сериалов",
+                  "description":"Система рекомендаций IVI поможет выбрать подходящий контент",
+                  "priority":3,
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               "cashbackMain":"10%",
+               "cashbackPro":"30%",
+               "cashbackPremium":"30%",
+               "cashbackPrivate":"100%"
+            },
+            "trialBan":false
+         },
+         {
+            "code":"gfn",
+            "name":"GFN.RU",
+            "nameShort":"GFN.RU",
+            "descriptionShort":"Игровой компьютер",
+            "plans":[
+               {
+                  "amount":1499,
+                  "repeatability":30,
+                  "format":"day",
+                  "planId":204,
+                  "preference":false
+               }
+            ],
+            "primary":false,
+            "dependent":false,
+            "active":false,
+            "details":[
+               {
+                  "code":"gfn_device",
+                  "name":"Любое устройство станет игровым",
+                  "description":"Запускай требовательные игры где угодно - на слабом ПК, телефоне, планшете",
+                  "priority":1,
+                  "application":"bank"
+               }
+            ],
+            "cashbackValues":{
+               "cashbackMain":"5%",
+               "cashbackPro":"10%",
+               "cashbackPremium":"10%",
+               "cashbackPrivate":"100%"
+            },
+            "trialBan":false
+         }
+      ]
+   }
+}
